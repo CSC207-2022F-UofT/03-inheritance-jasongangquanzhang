@@ -50,7 +50,7 @@ public class CrossbodyBag extends Bag {
     }
 
     public String toString() {
-        return super.getColor() + " Crossbody Bag with {" + this.numOfStraps + "} straps (" +
+        return super.getColor() + " Crossbody Bag with " + this.numOfStraps + " straps (" +
                 super.getNumberOfContents() + " / " + super.getCapacity() + ")";
     }
 
